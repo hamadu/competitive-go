@@ -10,6 +10,23 @@ func abs(a int) int {
 	}
 }
 
+
+func max(a, b int) int {
+	if a < b  {
+		return b
+	} else {
+		return a
+	}
+}
+
+func min(a, b int) int {
+	if a > b  {
+		return b
+	} else {
+		return a
+	}
+}
+
 func makeDivisors(n int) []int {
 	divisors := make([]int, 10000)
 	di := 0
